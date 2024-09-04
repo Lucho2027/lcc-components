@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import {DaisyTabs, DaisyTab} from 'lcc-vue'
+import {LccTabs, LccTab} from 'lcc-vue'
 
 const types = ['Bordered', 'Boxed', 'Lifted'] as const
 
@@ -9,72 +9,72 @@ const types = ['Bordered', 'Boxed', 'Lifted'] as const
 
 ### Lifted
 
-<DaisyTabs type="lifted">
-    <DaisyTab name="Preview">
-        <DaisyTabs type="lifted">
-        <DaisyTab name="Tab 1">Tab 1 Content</DaisyTab>
-        <DaisyTab name="Tab 2">Tab 2 Content</DaisyTab>
-        <DaisyTab name="Tab 3">Tab 3 Content</DaisyTab>
-    </DaisyTabs>
-    </DaisyTab>
-<DaisyTab name="Code">
+<LccTabs type="lifted">
+    <LccTab name="Preview">
+        <LccTabs type="lifted">
+        <LccTab name="Tab 1">Tab 1 Content</LccTab>
+        <LccTab name="Tab 2">Tab 2 Content</LccTab>
+        <LccTab name="Tab 3">Tab 3 Content</LccTab>
+    </LccTabs>
+    </LccTab>
+<LccTab name="Code">
 
 ```html
-<DaisyTabs type="lifted">
-  <DaisyTab name="Tab 1">Tab 1 Content</DaisyTab>
-  <DaisyTab name="Tab 2">Tab 2 Content</DaisyTab>
-  <DaisyTab name="Tab 3">Tab 3 Content</DaisyTab>
-</DaisyTabs>
+<LccTabs type="lifted">
+  <LccTab name="Tab 1">Tab 1 Content</LccTab>
+  <LccTab name="Tab 2">Tab 2 Content</LccTab>
+  <LccTab name="Tab 3">Tab 3 Content</LccTab>
+</LccTabs>
 ```
 
-</DaisyTab>
+</LccTab>
 
-</DaisyTabs>
+</LccTabs>
 
 ### Bordered
 
-<DaisyTabs type="lifted">
-    <DaisyTab name="Preview">
-        <DaisyTabs type="bordered">
-        <DaisyTab name="Tab 1">Tab 1 Content</DaisyTab>
-        <DaisyTab name="Tab 2">Tab 2 Content</DaisyTab>
-        <DaisyTab name="Tab 3">Tab 3 Content</DaisyTab>
-    </DaisyTabs>
-    </DaisyTab>
-<DaisyTab name="Code">
+<LccTabs type="lifted">
+    <LccTab name="Preview">
+        <LccTabs type="bordered">
+        <LccTab name="Tab 1">Tab 1 Content</LccTab>
+        <LccTab name="Tab 2">Tab 2 Content</LccTab>
+        <LccTab name="Tab 3">Tab 3 Content</LccTab>
+    </LccTabs>
+    </LccTab>
+<LccTab name="Code">
 
 ```html
-<DaisyTabs type="bordered">
-  <DaisyTab name="Tab 1">Tab 1 Content</DaisyTab>
-  <DaisyTab name="Tab 2">Tab 2 Content</DaisyTab>
-  <DaisyTab name="Tab 3">Tab 3 Content</DaisyTab>
-</DaisyTabs>
+<LccTabs type="bordered">
+  <LccTab name="Tab 1">Tab 1 Content</LccTab>
+  <LccTab name="Tab 2">Tab 2 Content</LccTab>
+  <LccTab name="Tab 3">Tab 3 Content</LccTab>
+</LccTabs>
 ```
 
-</DaisyTab>
+</LccTab>
 
-</DaisyTabs>
+</LccTabs>
 
 ### Boxed
 
-<DaisyTabs type="lifted">
-    <DaisyTab name="Preview">
-        <DaisyTabs type="boxed">
-        <DaisyTab name="Tab 1">Tab 1 Content</DaisyTab>
-        <DaisyTab name="Tab 2">Tab 2 Content</DaisyTab>
-        <DaisyTab name="Tab 3">Tab 3 Content</DaisyTab>
-    </DaisyTabs>
-    </DaisyTab>
-<DaisyTab name="Code">
+<LccTabs type="lifted">
+    <LccTab name="Preview">
+        <LccTabs type="boxed">
+        <LccTab name="Tab 1">Tab 1 Content</LccTab>
+        <LccTab name="Tab 2">Tab 2 Content</LccTab>
+        <LccTab name="Tab 3">Tab 3 Content</LccTab>
+    </LccTabs>
+    </LccTab>
+<LccTab name="Code">
 
 ```html
-<DaisyTabs type="boxed">
-  <DaisyTab name="Tab 1">Tab 1 Content</DaisyTab>
-  <DaisyTab name="Tab 2">Tab 2 Content</DaisyTab>
-  <DaisyTab name="Tab 3">Tab 3 Content</DaisyTab>
-</DaisyTabs>
+<LccTabs type="boxed">
+  <LccTab name="Tab 1">Tab 1 Content</LccTab>
+  <LccTab name="Tab 2">Tab 2 Content</LccTab>
+  <LccTab name="Tab 3">Tab 3 Content</LccTab>
+</LccTabs>
 ```
 
-</DaisyTab>
+</LccTab>
 
-</DaisyTabs>
+</LccTabs>

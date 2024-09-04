@@ -49,7 +49,7 @@ createApp(app).use(LccVuePlugin).mount('#app')
 
 ```vue [App.vue]
 <template>
-  <DaisyAlert type="success"> Great! You've Successfully Installed LccVue </DaisyAlert>
+  <LccAlert type="success"> Great! You've Successfully Installed LccVue </LccAlert>
 </template>
 ```
 

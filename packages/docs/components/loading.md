@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import {DaisyLoading} from 'lcc-vue'
+import {LccLoading} from 'lcc-vue'
 </script>
 
 # Loading Component
 
 ## Without any props
 
-<DaisyLoading/>
+<LccLoading/>
 
 ```vue
-<DaisyLoading />
+<LccLoading />
 ```
