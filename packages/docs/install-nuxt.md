@@ -43,7 +43,7 @@ export default defineNuxtConfig({
 </script>
 
 <template>
-  <LccAlert type="success"> Great! You've Successfully Installed LccVue </LccAlert>
+  <DaisyAlert type="success"> Great! You've Successfully Installed LccVue </DaisyAlert>
 </template>
 ```
 

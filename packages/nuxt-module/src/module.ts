@@ -2,6 +2,7 @@ import { defineNuxtModule, addComponent, installModule } from '@nuxt/kit'
 
 // @ts-ignore
 import * as LccVueComponents from 'lcc-vue/js'
+import daisyui from 'daisyui/src/index.js'
 import defu from 'defu'
 
 // Module options TypeScript interface definition
@@ -28,7 +29,7 @@ export default defineNuxtModule<ModuleOptions>({
           './node_modules/lcc-vue/src/{components,directives}/**/*.vue',
           './node_modules/nuxt-lcc-vue/node_modules/lcc-vue/src/{components,directives}/**/*.vue'
         ],
-        plugins: []
+        plugins: [daisyui]
       }
     })
 

@@ -4,7 +4,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'LccVue',
-  description: 'A Vue Component Library based on the Lcc UI CSS Library',
+  description: 'A Vue Component Library based on the Daisy UI CSS Library',
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
@@ -33,7 +33,6 @@ export default defineConfig({
           { text: 'Loading', link: '/components/loading' },
           { text: 'Badge', link: '/components/badge' },
           { text: 'Tabs', link: '/components/tabs' },
-          { text: 'Button', link: '/components/button' },
           // do not remove - used by hygen
         ]
       }

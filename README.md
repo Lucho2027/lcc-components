@@ -1,0 +1,2 @@
+This project started using the https://github.com/vueschool/crafting-a-custom-component-library-with-vue-and-daisy-ui/tree/boilerplate
+to start a component library with ready to use component for nuxt and vue projects.

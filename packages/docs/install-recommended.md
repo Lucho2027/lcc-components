@@ -33,6 +33,7 @@ yarn add lcc-vue
 Make sure your tailwind config includes the following:
 
 ```ts [tailwind.config.ts]
+import daisyui from 'daisyui'
 
 /** @type {import('tailwindcss').Config} */
 export default {
@@ -41,7 +42,7 @@ export default {
     './src/**/*.{vue,js,ts,jsx,tsx}',
     './node_modules/lcc-vue/src/{components,directives}/**/*.{vue,ts}'
   ],
-  plugins: []
+  plugins: [daisyui]
 }
 ```
 

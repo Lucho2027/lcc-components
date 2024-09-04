@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "LccVue"
-  text: "A Vue Component Library based on the Lcc UI CSS Library"
+  text: "A Vue Component Library based on the Daisy UI CSS Library"
   tagline: My great project tagline
   actions:
     - theme: brand
