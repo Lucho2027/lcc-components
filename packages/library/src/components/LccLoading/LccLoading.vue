@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { computed } from 'vue'
-import type { ColorsBrand, ColorsState, Sizes } from '../../globals'
-import { types } from './config'
+import type { ColorsBrand, ColorsState, Sizes, LoadingType } from '../../globals'
 
 const props = withDefaults(
   defineProps<{
-    type?: (typeof types)[number]
+    type?: LoadingType
     size?: Sizes
     color?: ColorsBrand | ColorsState
   }>(),

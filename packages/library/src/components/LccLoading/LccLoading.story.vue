@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { reactive } from 'vue'
 import LccLoading from './LccLoading.vue'
-import { types } from './config'
+import { loadingType } from '../../globals/loaders'
 import type { ColorsBrand, ColorsState } from '../../globals/colors'
 import { colorsBrand, colorsState } from '../../globals/colors'
 import { sizes } from '../../globals/sizes'
@@ -12,7 +12,7 @@ const state = reactive({
 </script>
 <template>
   <Story :layout="{ type: 'grid', width: '25%' }">
-    <template v-for="type in types" :key="type">
+    <template v-for="type in loadingType" :key="type">
       <template v-for="size in sizes" :key="size">
         <Variant :title="`${type} - ${size}`">
           <LccLoading :type="type" :size="size" :color="state.color" />
