@@ -1,5 +1,13 @@
 # docs
 
+## 1.1.1
+
+### Patch Changes
+
+- 70ff0f5: feat: document accordion and its variations
+- Updated dependencies [70ff0f5]
+  - lcc-vue@1.1.1
+
 ## 1.1.0
 
 ### Minor Changes

@@ -1,5 +1,12 @@
 # nuxt-lcc-vue
 
+## 1.0.2
+
+### Patch Changes
+
+- Updated dependencies [70ff0f5]
+  - lcc-vue@1.1.1
+
 ## 1.0.1
 
 ### Patch Changes
