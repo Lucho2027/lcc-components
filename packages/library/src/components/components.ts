@@ -6,6 +6,7 @@ import LccButton from './LccButton/LccButton.vue'
 import LccBrowserMockup from './LccBrowserMockup/LccBrowserMockup.vue'
 import LccAccordion from './LccAccordion/LccAccordion.vue'
 import LccAccordionPanel from './LccAccordionPanel/LccAccordionPanel.vue'
+import LccAvatar from './LccAvatar/LccAvatar.vue'
 // import - do not remove this line, used for hygen generations
 
 // ignore removal of traling comma by pretter so hygen can add new imports
@@ -19,5 +20,6 @@ export {
   LccBrowserMockup,
   LccAccordion,
   LccAccordionPanel,
+  LccAvatar,
   // export - do not remove this line, used for hygen generations
 }

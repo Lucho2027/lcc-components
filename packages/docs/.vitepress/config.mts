@@ -37,6 +37,7 @@ export default defineConfig({
           { text: 'BrowserMockup', link: '/components/browsermockup' },
           { text: 'Accordion', link: '/components/accordion' },
           { text: 'AccordionPanel', link: '/components/accordionpanel' },
+          { text: 'Avatar', link: '/components/avatar' },
           // do not remove - used by hygen
         ]
       }
