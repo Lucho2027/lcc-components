@@ -10,7 +10,8 @@ const id = nanoid();
 const defaultData = ref({
   id: null,
   activeIds: [],
-  multipleOpen: false
+  multipleOpen: false,
+  join: false
 })
 
 const accordion = inject('lccAccordionData', defaultData)
@@ -29,15 +30,13 @@ function handleToggle(){
     accordion.value.activeIds.push(id)
   }
 }
-
-
 </script>
 
 <template>
-  <div class="collapse collapse-arrow join-item border-base-300 border"
-      :class="{'collapse-open': accordion.activeIds.includes(id)}">
+  <div class="collapse collapse-arrow  border-base-300 border"
+      :class="[{'collapse-open': accordion.activeIds.includes(id), 'join-item': accordion.join}]">
     <button 
-    class="block font-bold text-left cursor-pointer collapse-title focus:shadow-primary focus:outline-none"
+    class="block font-bold text-left cursor-pointer collapse-title focus:shadow-primary focus:outline-none border-none"
     @click="handleToggle"
     @keydown.Enter="handleToggle()"
     >
