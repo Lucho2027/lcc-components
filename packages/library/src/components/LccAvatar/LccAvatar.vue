@@ -1,5 +1,4 @@
 <script setup lang="ts">
-import { text } from 'stream/consumers';
 import { vMask } from '../../directives/vMask/VMask';
 import type { Masks, Sizes } from '../../globals';
 import {computed, inject, ref} from 'vue';

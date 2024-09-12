@@ -7,4 +7,5 @@
 - [BrowserMockup](/components/browsermockup)
 - [Accordion](/components/accordion)
 - [Avatar](/components/avatar)
+- [AvatarGroup](/components/avatargroup)
 <!--do not remove - used by hygen-->

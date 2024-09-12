@@ -15,7 +15,6 @@ const accordionData = ref({
 })
 
 watch(
-  () => props.join,
   () => props.multipleOpen,
   () => {
     accordionData.value.multipleOpen = props.multipleOpen
