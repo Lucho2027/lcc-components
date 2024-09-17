@@ -8,4 +8,5 @@
 - [Accordion](/components/accordion)
 - [Avatar](/components/avatar)
 - [AvatarGroup](/components/avatargroup)
+- [Alert](/components/alert)
 <!--do not remove - used by hygen-->
