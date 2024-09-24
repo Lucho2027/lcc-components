@@ -1,5 +1,13 @@
 # nuxt-lcc-vue
 
+## 1.0.3
+
+### Patch Changes
+
+- 99afe4f: Adding alert component
+- Updated dependencies [99afe4f]
+  - lcc-vue@1.1.2
+
 ## 1.0.2
 
 ### Patch Changes

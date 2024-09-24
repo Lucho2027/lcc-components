@@ -1,5 +1,11 @@
 # lcc-vue
 
+## 1.1.2
+
+### Patch Changes
+
+- 99afe4f: Adding alert component
+
 ## 1.1.1
 
 ### Patch Changes
