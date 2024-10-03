@@ -9,6 +9,7 @@ import LccAccordionPanel from './LccAccordionPanel/LccAccordionPanel.vue'
 import LccAvatar from './LccAvatar/LccAvatar.vue'
 import LccAvatarGroup from './LccAvatarGroup/LccAvatarGroup.vue'
 import LccAlert from './LccAlert/LccAlert.vue'
+import LccDataTable from './LccDataTable/LccDataTable.vue'
 // import - do not remove this line, used for hygen generations
 
 // ignore removal of traling comma by pretter so hygen can add new imports
@@ -25,5 +26,6 @@ export {
   LccAvatar,
   LccAvatarGroup,
   LccAlert,
+  LccDataTable,
   // export - do not remove this line, used for hygen generations
 }

@@ -9,4 +9,5 @@
 - [Avatar](/components/avatar)
 - [AvatarGroup](/components/avatargroup)
 - [Alert](/components/alert)
+- [DataTable](/components/datatable)
 <!--do not remove - used by hygen-->
