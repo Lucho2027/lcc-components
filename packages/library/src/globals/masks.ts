@@ -13,6 +13,7 @@ export const masks = [
   'parallelogram-3', // mask-parallelogram-3
   'parallelogram-4', // mask-parallelogram-4
   'star', // mask-star
+  'star-2',
   'triangle', // mask-triangle
   'triangle-2', // mask-triangle-2
   'triangle-3', // mask-triangle-3

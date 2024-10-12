@@ -41,6 +41,7 @@ export default defineConfig({
           { text: 'AvatarGroup', link: '/components/avatargroup' },
           { text: 'Alert', link: '/components/alert' },
           { text: 'DataTable', link: '/components/datatable' },
+          { text: 'Rating', link: '/components/rating' },
           // do not remove - used by hygen
         ]
       }
